@@ -28,8 +28,7 @@ def load_artifacts():
 
 
 st.title("❤️ Heart Disease Prediction System")
-st.write("Enter four patient attributes. The trained Support Vector Classifier "
-         "(Label Encoding + SVC, as in the Titanic notebook) predicts whether heart disease is likely.")
+st.write("This app uses a Support Vector Classifier trained on the UCI Cleveland Heart Disease dataset. Select four patient details and click Predict to see whether heart disease is likely.")
 
 try:
     model, encoders = load_artifacts()
